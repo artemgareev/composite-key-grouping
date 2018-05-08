@@ -1,6 +1,7 @@
 # composite-key-grouping
+Service for grouping data by composite key
 ## Usage
-```
+```php
 <?php
 $dataToGroup = [
     [
@@ -27,6 +28,7 @@ $output = $groupingService->groupByArrayKeys(
     $dataToGroup,
     ['merchant_id','advert_id']
 );
+
 //$output =
 //[
 //    [
