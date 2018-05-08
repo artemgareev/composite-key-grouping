@@ -20,7 +20,7 @@ $dataToGroup = [
         'merchant_id' => 1,
         'advert_id' => 1,
         'income' => 100,
-        'expenses' => 1,
+        'expenses' => 100,
     ],
 ];
 $groupingService = new GroupingService();
